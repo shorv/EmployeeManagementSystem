@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@RequestMapping("/api/v1/helloworld")
+@RequestMapping(path = "/api/v1/helloworld")
 public class EmployeeManagementSystemApplication {
 
     public static void main(String[] args) {
